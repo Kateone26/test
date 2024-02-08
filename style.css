@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(192, 83, 101);
+}
+header{
+    background-color: pink;
+    color: rgb(168, 27, 27);
+    height: 50px;
+
+}
+.navbar-wrap{
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+}
+li{
+    margin-left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.lii{
+    color: rgb(205, 97, 97);
+}
+
+.logo{
+    width: 50px;
+    display: block;
+}
+
+
+.section1{
+    max-width: 980px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+}
+.section1 h1{
+    color: rgb(223, 158, 169);
+    font-size: 50px;
+}
+.section1 p{
+    color: rgb(223, 158, 169);
+    font-size: 18px;
+}
+
