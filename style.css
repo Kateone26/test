@@ -15,10 +15,35 @@ header{
     margin: 0 auto;
 }
 
-ul{
+.slide-navbar{
+    background-color: pink;
+    width: 100px;
+    
+    text-align: center;
+    margin:0 0 0 auto;
+    /* padding: 5px; */
+    border-radius: 0 0 0 8px;
+    display: none;
+}
+
+.slide-navbar ul{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0 auto;;
+}
+
+.slide-navbar li{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.nav1 ul{
     display: flex;
 }
-li{
+.nav1 li{
     margin-left: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
@@ -51,3 +76,54 @@ li{
     font-size: 18px;
 }
 
+.navbar2{
+    display: none;
+}
+.burger-bar{
+    width: 50px;
+    height: 50px;
+}
+
+
+@media(max-width: 475px){
+
+    .navbar-wrap{
+        margin: 0 20px;
+    }
+
+    .nav1{
+        display: none;
+    }
+    .navbar2{
+        display: block;
+    }
+
+    .section1{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .section1 h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .section1 p{
+        margin: 0 20px 0 20px;
+        font-size: 16px;
+    }
+    /* .header.disappear{
+        display: none;
+    }
+    .slide-navbar.appear{
+        display: flex;
+    }
+    .footer-overlay.appear{
+        display: flex;
+        z-index: 70;
+    }   */
+
+
+    .slide-navbar .appear{
+        display:flex;
+    }
+}
